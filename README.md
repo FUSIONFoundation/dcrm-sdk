@@ -1,4 +1,20 @@
-# Intro
+<div align="center"><img src ="https://uploads-ssl.webflow.com/5cbf7269aa4c8ec895500d90/5cc70756e6cc13a82b2f7fb1_Fusion_Light.svg"/>
+</div>
+
+<div align="center"><strong>DCRM SDK <sup>BETA</sup></strong></div>
+<div align="center"> 
+
+[FUSION's Distributed Control Rights Management](https://fusion.org)
+
+</div>
+
+<hr>
+
+<div align="center">
+<i>Note : dcrm-sdk is considered beta software. We make no warranties or guarantees of its security or stability.*</i>
+</div>
+
+# Introduction
 DCRM SDK is a distributed key generation and distributed signature module that forms the cornerstone of decentralized value exchange.  This technology was developed for over a year, with the feedback of 4 leading cryptographers: Rosario Gennaro, Steven Goldfeder, Pascal Paillier, Louis Goubin. 
 
 When used in context of blockchain, this module can serve as a non-custodial solution, a keyless wallet, a component to an interoperable solution, and more. Please read the [Wiki](https://github.com/fsn-dev/dcrm-sdk/wiki) for more information.
@@ -11,11 +27,10 @@ This library contains 2 functions:
 1. Distributed key generation which returns the public key (dcrm_genPubkey)
 2. Distributed signing of transactions (dcrm_sign)
 
-*Note: dcrm-sdk is considered beta software. We make no warranties or guarantees of its security or stability.*
 
 # Prerequisites
 1. Linux terminal
-2. Golang >= 1.12
+2. Golang ^1.12
 
 # Setting Up
 ## Clone The Repository
